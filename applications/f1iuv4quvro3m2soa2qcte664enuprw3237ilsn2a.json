@@ -35,12 +35,12 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ReadyToSign",
     "Validated At": "2024-08-20 09:31:24.402299614 UTC",
     "Validated By": "FilscanOfficial",
     "Active": true,
-    "Updated At": "2024-08-21 03:14:19.537279704 UTC",
-    "Active Request ID": "7ec0eb6f-c111-48a5-8583-7e6cf098a0b8",
+    "Updated At": "2024-08-28 06:20:05.022156428 UTC",
+    "Active Request ID": "8b22bbda-6da9-4164-aad8-1f829bd75fad",
     "On Chain Address": "f1iuv4quvro3m2soa2qcte664enuprw3237ilsn2a",
     "Multisig Address": "false",
     "edited": false
@@ -61,6 +61,15 @@
           "Message CID": "bafy2bzacedyu6qn7qq3b4vwl3jcivpnkc2gdhatdfy6qjzd2cb4gbp3gpagqc"
         }
       ]
+    },
+    {
+      "ID": "8b22bbda-6da9-4164-aad8-1f829bd75fad",
+      "Request Type": "Refill",
+      "Created At": "2024-08-28 06:20:05.022201355 UTC",
+      "Updated At": "2024-08-28 06:20:05.022203150 UTC",
+      "Active": true,
+      "Allocation Amount": "500TiB",
+      "Signers": []
     }
   ]
 }
