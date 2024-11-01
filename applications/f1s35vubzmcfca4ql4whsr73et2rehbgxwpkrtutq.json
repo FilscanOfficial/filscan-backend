@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1s35vubzmcfca4ql4whsr73et2rehbgxwpkrtutq",
+  "Issue Number": "21",
+  "Client": {
+    "Name": "ABGAasia",
+    "Region": "Singapore",
+    "Industry": "Web3 / Crypto",
+    "Website": "https://www.abga.asia/",
+    "Social Media": "https://x.com/ABGAasia",
+    "Social Media Type": "Twitter",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "ABGA is registered in Singapore and registered as a public company limited by guarantee (Public Company Limited by Guarantee, CLG).\r\n1.for leading groups and professional investment institutions: ABGA is a gathering place for investment targets, industry information and great enterprises. ABGA is engaging in promote the development of block chain game and helping high-quality projects to the world. \r\n2.For mature institutions: ABGA is a resource integration platform that can expand business cooperation and exchanges. \r\n3.For entrepreneurial teams: ABGA is a guiding platform. \r\nABGA is invest in building a blockchain game ecosystem and work together to promote the vigorous development of the global blockchain game industry.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "Yes",
+    "Describe the data being stored onto Filecoin": "The data stored on Filecoin is image, video and docs for online and offline events hosted by us and the data stored by alliance members.",
+    "Where was the data currently stored in this dataset sourced from": "Google Cloud",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://medium.com/@ABGAasia\r\nhttps://drive.google.com/file/d/16Pb__RUNOiGgX31YRT48oe1q1bw4fv2P/view?usp=sharing\r\nhttps://drive.google.com/file/d/1A9EmcnkrcY-qSfMhFI7Jej2b_che7mYl/view?usp=sharing\r\nhttps://drive.google.com/file/d/1MugexGSvpSErSZ3TPDdiakk1AOfakyBY/view?usp=sharing\r\nhttps://drive.google.com/file/d/1bwCTJoVGOpUaR3fFdjg8hcAjkqllABOA/view?usp=sharing\r\nhttps://drive.google.com/file/d/1-O4KtkQAfPxAueBJka61KprdzY9Qd8UZ/view?usp=sharing\r\nhttps://drive.google.com/file/d/1yePKPsy6J4jxUL9Bexl2-DkguEZbOjiT/view?usp=sharing",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[ ] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, IPFS, Shipping hard drives, Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03157883 China\r\nf02826588 China\r\nf02827996 China\r\nf02826007 SG",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "1.5PiB",
+    "Single Size Dataset": "400TiB",
+    "Replicas": 4,
+    "Weekly Allocation": "500TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-11-01 06:03:20.803878970 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1s35vubzmcfca4ql4whsr73et2rehbgxwpkrtutq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
