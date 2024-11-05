@@ -35,15 +35,25 @@
     "Weekly Allocation": "1.25PiB"
   },
   "Lifecycle": {
-    "State": "KYCRequested",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2024-11-05 03:00:40.437046612 UTC",
+    "Validated By": "FilscanOfficial",
     "Active": true,
-    "Updated At": "2024-11-04 10:02:13.586429790 UTC",
-    "Active Request ID": "",
+    "Updated At": "2024-11-05 03:00:40.437051136 UTC",
+    "Active Request ID": "7ae274bd-3c80-45ae-b439-a78ef845a363",
     "On Chain Address": "f3riycujiuhfgsnezghho3gkpws5gsm7pwnekmlsazqx5ui6hpchws3urhsxmpl4x4vawsf6xlo7sbswbam2ta",
     "Multisig Address": "true",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "7ae274bd-3c80-45ae-b439-a78ef845a363",
+      "Request Type": "First",
+      "Created At": "2024-11-05 03:00:40.437054077 UTC",
+      "Updated At": "2024-11-05 03:00:40.437055482 UTC",
+      "Active": true,
+      "Allocation Amount": "200TiB",
+      "Signers": []
+    }
+  ]
 }
