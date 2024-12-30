@@ -35,7 +35,7 @@
     "Weekly Allocation": "1.25PiB"
   },
   "Lifecycle": {
-    "State": "ChangesRequested",
+    "State": "Granted",
     "Validated At": "2024-12-27 06:36:06.622090944 UTC",
     "Validated By": "FilscanOfficial",
     "Active": true,
