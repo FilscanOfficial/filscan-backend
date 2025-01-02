@@ -36,11 +36,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2024-12-30 05:36:38.472783050 UTC",
+    "Validated At": "2025-01-02 02:59:41.685723341 UTC",
     "Validated By": "FilscanOfficial",
     "Active": true,
-    "Updated At": "2024-12-30 05:36:38.472779665 UTC",
-    "Active Request ID": "662a2d7b-167d-401f-8dec-0ad801508b4e",
+    "Updated At": "2025-01-02 02:59:41.685720150 UTC",
+    "Active Request ID": "2268a7a2-9419-4e32-99ae-2139210ea2bf",
     "On Chain Address": "f3riycujiuhfgsnezghho3gkpws5gsm7pwnekmlsazqx5ui6hpchws3urhsxmpl4x4vawsf6xlo7sbswbam2ta",
     "Multisig Address": "true",
     "edited": false
@@ -155,6 +155,22 @@
           "Signing Address": "f16mbzjnlccbifopyt4fnd6u4iyd6mmojxtxcki7q",
           "Created At": "2024-12-30 05:36:36.123000000 UTC",
           "Message CID": "bafy2bzaceahjzpdm7xsg263v44hmtixyl6kr5dgjtaxr57epefzipspag6ixi"
+        }
+      ]
+    },
+    {
+      "ID": "2268a7a2-9419-4e32-99ae-2139210ea2bf",
+      "Request Type": "Refill",
+      "Created At": "2025-01-02 02:57:50.662076369 UTC",
+      "Updated At": "2025-01-02 02:57:50.662077216 UTC",
+      "Active": false,
+      "Allocation Amount": "1.25PiB",
+      "Signers": [
+        {
+          "Github Username": "FilscanOfficial",
+          "Signing Address": "f16mbzjnlccbifopyt4fnd6u4iyd6mmojxtxcki7q",
+          "Created At": "2025-01-02 02:59:39.089000000 UTC",
+          "Message CID": "bafy2bzacecytmlwybrclrtfalnp66yhorz4prtexxbfbjnyoeqguu6tio3szy"
         }
       ]
     }
