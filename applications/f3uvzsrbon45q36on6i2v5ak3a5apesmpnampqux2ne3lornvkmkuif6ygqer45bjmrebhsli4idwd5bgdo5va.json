@@ -35,11 +35,11 @@
     "Weekly Allocation": "2PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-04-02 01:07:39.233917506 UTC",
+    "State": "Granted",
+    "Validated At": "2025-04-02 01:15:04.571186831 UTC",
     "Validated By": "FilscanOfficial",
     "Active": true,
-    "Updated At": "2025-04-02 01:07:39.233921430 UTC",
+    "Updated At": "2025-04-02 01:15:04.571183087 UTC",
     "Active Request ID": "b26b37b0-4db2-450e-a333-16859eda3ef1",
     "On Chain Address": "f3uvzsrbon45q36on6i2v5ak3a5apesmpnampqux2ne3lornvkmkuif6ygqer45bjmrebhsli4idwd5bgdo5va",
     "Multisig Address": "false",
@@ -51,9 +51,16 @@
       "Request Type": "First",
       "Created At": "2025-04-02 01:07:39.233923438 UTC",
       "Updated At": "2025-04-02 01:07:39.233924090 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "1000 TiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "FilscanOfficial",
+          "Signing Address": "f16mbzjnlccbifopyt4fnd6u4iyd6mmojxtxcki7q",
+          "Created At": "2025-04-02 01:15:01.460000000 UTC",
+          "Message CID": "bafy2bzaceaktaedlzjevfzkxdf4xrc4d6kvrqiqnikp7rpuri5jkww6rfzhae"
+        }
+      ]
     }
   ]
 }
