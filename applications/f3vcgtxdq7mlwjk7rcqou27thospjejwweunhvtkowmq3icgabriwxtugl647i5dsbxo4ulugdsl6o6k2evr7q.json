@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f3vcgtxdq7mlwjk7rcqou27thospjejwweunhvtkowmq3icgabriwxtugl647i5dsbxo4ulugdsl6o6k2evr7q",
+  "Issue Number": "47",
+  "Client": {
+    "Name": "VTwoSim - Ai4CE General Sensor",
+    "Region": "Malaysia",
+    "Industry": "IT & Technology Services",
+    "Website": "https://ai4ce.github.io/V2X-Sim/index.html",
+    "Social Media": "https://www.linkedin.com/company/artificial-intelligience-for-circularity-exchange-ai4ce",
+    "Social Media Type": "Other",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "About V2X-Sim\nV2X-Sim, short for vehicle-to-everything simulation, is the first synthetic V2X-aided collaborative perception dataset in autonomous driving developed by AI4CE Lab at NYU and MediaBrain Group at SJTU to stimulate multi-agent multi-modality multi-task perception research. Due to the immaturity of V2X and the cost of simultaneously operating multiple autonomous vehicles, it is very expensive and laborious to build such a real-world dataset for research communities. Therefore, we use highly realistic CARLA-SUMO co-simulation to ensure the representativeness of our dataset compared to real-world driving scenarios.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Includes high-resolution RGB images, LiDAR point clouds, semantic segmentation, 3D bounding boxes, depth maps, GPS coordinates, and IMU data.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "The data is first uploaded to a local node where a unique Content Identifier (CID) is generated. A storage deal is then initiated. During this process, the data is divided into smaller pieces, encoded, and replicated before being sealed into storage sectors. Miners carry out a series of operations—including pre-commit, sealing, and commit—to securely store the data. They also regularly provide proof-of-storage to verify the data's continued integrity. When retrieval is requested, users can access the decoded data from the miners using the CID.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://ai4ce.github.io/V2X-Sim/data.html",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1 to 1.5 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Europe, North America",
+    "How will you be distributing your data to storage providers": "Venus built-in data transfer, IPFS, HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1.f03540037 Xiamen, China\n2.f03538787 Seoul, Korea\n3.f03536089 Moscow, Rusia\n4.f03519292 Los Angeles, US",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "8PiB",
+    "Single Size Dataset": "2PiB",
+    "Replicas": 4,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-04-24 01:58:59.220351262 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f3vcgtxdq7mlwjk7rcqou27thospjejwweunhvtkowmq3icgabriwxtugl647i5dsbxo4ulugdsl6o6k2evr7q",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
