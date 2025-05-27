@@ -35,7 +35,7 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ChangesRequested",
     "Validated At": "2025-04-29 05:51:17.891547317 UTC",
     "Validated By": "FilscanOfficial",
     "Active": true,
@@ -43,7 +43,7 @@
     "Active Request ID": "7b6e2872-6ef4-4246-94b6-2a5cd90ab0d7",
     "On Chain Address": "f3vcgtxdq7mlwjk7rcqou27thospjejwweunhvtkowmq3icgabriwxtugl647i5dsbxo4ulugdsl6o6k2evr7q",
     "Multisig Address": "false",
-    "edited": true
+    "edited": false
   },
   "Allocation Requests": [
     {
