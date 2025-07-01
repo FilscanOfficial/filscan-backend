@@ -35,15 +35,25 @@
     "Weekly Allocation": "1 PiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-07-01 09:32:57.327386824 UTC",
+    "Validated By": "FilscanOfficial",
     "Active": true,
-    "Updated At": "2025-07-01 06:55:43.953118708 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-07-01 09:32:57.327390800 UTC",
+    "Active Request ID": "740e01a7-ff2e-4013-aefb-a54bfaa67da2",
     "On Chain Address": "f3uivtfezasoeezrmxbwtuw22lwfov3yfkgiupxwrluzbdemyg6ot63v66oc6q5sskqe3ct2zat5kghpu7zd3a",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "740e01a7-ff2e-4013-aefb-a54bfaa67da2",
+      "Request Type": "First",
+      "Created At": "2025-07-01 09:32:57.327392774 UTC",
+      "Updated At": "2025-07-01 09:32:57.327393930 UTC",
+      "Active": true,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": []
+    }
+  ]
 }
