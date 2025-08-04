@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f3rrnxdb6wtzpupcnnvloxjfjwo2kn44w2jqu22j5a4dkbiizf7m7to7is22bo7yhfd6qea2ydbveyqe3lxp7q",
+  "Issue Number": "67",
+  "Client": {
+    "Name": "Meteorological Satellite Center",
+    "Region": "Japan",
+    "Industry": "Environment",
+    "Website": "https://www.data.jma.go.jp/mscweb/en/index.html",
+    "Social Media": "",
+    "Social Media Type": "Other",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "The Meteorological Satellite Center, established to advance weather forecasting, began operating the Geostationary Meteorological Satellite (GMS) series, starting with \"Himawari\" in 1978. It progressed to launching the advanced Himawari-8 and Himawari-9 satellites in 2014 and 2016, respectively, enhancing weather and environmental monitoring across the Asia-Pacific. The MSC introduced data services like HimawariCast and HimawariCloud in 2015 for efficient data dissemination to meteorological services, supports global weather prediction and disaster mitigation.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The Meteorological Satellite Center stores Himawari-8 and Himawari-9 satellite data. This includes high-resolution, multi-spectral imagery captured, covering weather patterns, typhoons, and environmental phenomena in the Asia-Pacific region. The data, available at various spatial resolutions, supports meteorological forecasting and disaster monitoring.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "To prepare Himawari-8 and Himawari-9 satellite data, we first download the data from AWS S3, verifying integrity against metadata. The imagery, which includes high-resolution multi-spectral data updated, is segmented into chunks using Singularity, with files split into smaller parts and packaged into CAR files, each assigned a unique PieceCID. Metadata, including file sizes, split counts, and packaging details, is stored in a PostgreSQL database for indexing and CID-based retrieval. These CAR files are then proposed to selected Storage Providers via Singularity’s deal-making API, ensuring efficient and decentralized storage.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://registry.opendata.aws/noaa-himawari/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Australia (continent), Asia other than Greater China, Greater China, North America, South America, Europe, Africa",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, IPFS, Lotus built-in data transfer, Venus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1.f02003699 Russia\n2.f02002666 Hongkong, China\n3.f02002555 California, USA\n4.f02002333 Seoul, South Korea\n5.f02002200 Changsha，China\n6.f03519247 Russia\n7.f03543055 Russia\n8.f03551138 US\n9.f03590163 Korea\n10.f03605957 Hongkong",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "13PiB",
+    "Single Size Dataset": "1.3PiB",
+    "Replicas": 10,
+    "Weekly Allocation": "800 TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-08-04 03:47:10.148852500 UTC",
+    "Validated By": "FilscanOfficial",
+    "Active": true,
+    "Updated At": "2025-08-04 03:47:10.148848683 UTC",
+    "Active Request ID": "1d0a1ebb-4619-43a3-b427-0ae5e07e1024",
+    "On Chain Address": "f3rrnxdb6wtzpupcnnvloxjfjwo2kn44w2jqu22j5a4dkbiizf7m7to7is22bo7yhfd6qea2ydbveyqe3lxp7q",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "1d0a1ebb-4619-43a3-b427-0ae5e07e1024",
+      "Request Type": "First",
+      "Created At": "2025-08-04 03:44:34.343876911 UTC",
+      "Updated At": "2025-08-04 03:44:34.343878270 UTC",
+      "Active": false,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": [
+        {
+          "Github Username": "FilscanOfficial",
+          "Signing Address": "f16mbzjnlccbifopyt4fnd6u4iyd6mmojxtxcki7q",
+          "Created At": "2025-08-04 03:47:05.649000000 UTC",
+          "Message CID": "bafy2bzacedvjzs2vpcg2lozlhhvxyub7ne2k7pgbb777ubvtpaisumaq7tnmm"
+        }
+      ]
+    }
+  ]
+}
