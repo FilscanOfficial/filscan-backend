@@ -35,7 +35,7 @@
     "Weekly Allocation": "800 TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ChangesRequested",
     "Validated At": "2025-08-04 03:47:10.148852500 UTC",
     "Validated By": "FilscanOfficial",
     "Active": true,
@@ -43,7 +43,7 @@
     "Active Request ID": "1d0a1ebb-4619-43a3-b427-0ae5e07e1024",
     "On Chain Address": "f3rrnxdb6wtzpupcnnvloxjfjwo2kn44w2jqu22j5a4dkbiizf7m7to7is22bo7yhfd6qea2ydbveyqe3lxp7q",
     "Multisig Address": "false",
-    "edited": true
+    "edited": false
   },
   "Allocation Requests": [
     {
