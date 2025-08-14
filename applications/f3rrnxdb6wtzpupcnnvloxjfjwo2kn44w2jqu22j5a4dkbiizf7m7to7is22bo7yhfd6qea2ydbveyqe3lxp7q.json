@@ -23,15 +23,15 @@
     "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
     "In which geographies do you plan on making storage deals": "Australia (continent), Asia other than Greater China, Greater China, North America, South America, Europe, Africa",
     "How will you be distributing your data to storage providers": "HTTP or FTP server, IPFS, Lotus built-in data transfer, Venus built-in data transfer",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1.f02003699 Russia\n2.f02002666 Hongkong, China\n3.f02002555 California, USA\n4.f02002333 Seoul, South Korea\n5.f02002200 Changsha，China\n6.f03519247 Russia\n7.f03543055 Russia\n8.f03551138 US\n9.f03590163 Korea\n10.f03605957 Hongkong",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1.f02003699 Russia\n2.f02002666 Hongkong, China\n3.f02002555 California, USA\n4.f02002200 Changsha，China\n5.f03519247 Russia",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
     "Type": "ldn-v3",
     "Data Type": "Slingshot",
-    "Total Requested Amount": "13PiB",
+    "Total Requested Amount": "6.5PiB",
     "Single Size Dataset": "1.3PiB",
-    "Replicas": 10,
+    "Replicas": 5,
     "Weekly Allocation": "800 TiB"
   },
   "Lifecycle": {
